@@ -13,11 +13,12 @@
 Конфигурационный файл:
 
 1. Настройка последовательного порта:
-      serial:
-            port: /dev/ttyUSB0
-            baudrate: 9600
-            timeout: 0.1
-            write_timeout: 0.1
+
+            serial:
+                  port: /dev/ttyUSB0
+                  baudrate: 9600
+                  timeout: 0.1
+                  write_timeout: 0.1
 
 Дополнительно можно указать константы из модуля serial, например:
 
